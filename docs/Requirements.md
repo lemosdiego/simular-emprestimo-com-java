@@ -75,3 +75,6 @@ O usuário informa **nome** e **salário bruto**, e o sistema gera **cenários d
 
 - Todas as regras de cálculo devem estar centralizadas na camada de domínio.
 - O sistema deve ser preparado para futuras alterações de taxas e regras de crédito.
+
+## Fluxograma
+![Fluxograma do sistema](https://res.cloudinary.com/dkrpmbjml/image/upload/v1771519306/Captura_de_tela_de_2026-02-19_13-40-34_hau3lv.png)
