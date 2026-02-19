@@ -1,4 +1,4 @@
-package com.simulateloan.simulateloan.domain.client.salary;
+package com.simulateloan.simulateloan.domain.salary;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -30,6 +30,8 @@ public enum InssTrack {
     }
 
     public BigDecimal calculate(BigDecimal salary){
-        return salary.multiply(aliquot).subtract(deductInstallment);
+        return salary.multiply(aliquot)
+                .subtract(deductInstallment)
+                .setScale(2, RoundingMode.HALF_UP);
     }
 }
