@@ -1,7 +1,7 @@
 package com.simulateloan.simulateloan.domain.rules;
 
-import com.simulateloan.simulateloan.domain.entities.client.Client;
-import com.simulateloan.simulateloan.domain.salary.InssTrack;
+import com.simulateloan.simulateloan.domain.client.Client;
+import com.simulateloan.simulateloan.domain.enums.salary.InssTrack;
 
 import java.math.BigDecimal;
 
