@@ -15,3 +15,8 @@
 //    }
 //
 //}
+//Orquesta:
+    //1-cria cliente
+    //2-calcula salario liquido regra
+    //3-calcula o credico com base no salario
+    //4-gera a simulação completa, valor+quantidadeparcelas+valor
