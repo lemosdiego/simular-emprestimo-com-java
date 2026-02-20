@@ -13,8 +13,7 @@ public class SimulateLoanRule {
         BigDecimal limit = rule.calculateLimit(netSalary);
         BigDecimal installmentsValue = rule.calculateInstallment(limit, installments);
 
-        BigDecimal totalPayable = installmentsValue.multiply(BigDecimal.valueOf(installments));
-        BigDecimal percentageOfSalary = totalPayable.divide(netSalary, 4, RoundingMode.HALF_UP).multiply(BigDecimal.valueOf(100));
+        BigDecimal percentageOfSalary = installmentsValue.divide(netSalary, 4, RoundingMode.HALF_UP).multiply(BigDecimal.valueOf(100));
 
         return  new Simulation(null, netSalary, rule.name(), limit, installments, installmentsValue, percentageOfSalary);
     }

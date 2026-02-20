@@ -12,10 +12,10 @@
 - [ ] Definir modelo de banco de dados inicial
 
 ## Fase 3 – Implementação Backend
-- [ ] Configurar build.gradle
-- [ ] Criar estrutura de pacotes DDD
-- [ ] Implementar cálculo de INSS
-- [ ] Implementar cálculo de crédito
+- [ ✅ ] Configurar build.gradle
+- [ ✅ ] Criar estrutura de pacotes DDD
+- [ ✅ ] Implementar cálculo de INSS
+- [ ✅ ] Implementar cálculo de crédito
 - [ ] Expor endpoint de simulação
 
 ## Fase 4 – Infra & DB
