@@ -8,7 +8,7 @@
 
 ## Fase 2 – Arquitetura
 - [ ✅ ] Definir camadas (Domain, Application, Infrastructure)
-- [ ] Desenhar modelo de domínio (entidades, VOs)
+- [ ✅  ] Desenhar modelo de domínio (entidades)
 - [ ] Definir modelo de banco de dados inicial
 
 ## Fase 3 – Implementação Backend
