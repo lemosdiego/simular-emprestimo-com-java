@@ -1,4 +1,4 @@
-package com.simulateloan.simulateloan.domain.entities.client;
+package com.simulateloan.simulateloan.domain.client;
 
 import java.math.BigDecimal;
 import java.util.UUID;
