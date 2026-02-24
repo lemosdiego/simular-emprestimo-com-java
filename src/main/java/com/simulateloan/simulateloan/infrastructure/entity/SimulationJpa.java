@@ -20,7 +20,7 @@ public class SimulationJpa {
     @Column(name = "client_id", nullable = false)
     private UUID clientId;
 
-    @ManyToMany(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "client_id", insertable = false, updatable = false)
     private ClientJpa client;
 
@@ -30,7 +30,7 @@ public class SimulationJpa {
     @Column(name = "prazo_meses", nullable = false)
     private Integer prazoMeses;
 
-    @Column(name = "score", nullable = false)
+    @Column(name = "score")
     private Integer score;
 
     @Column(name = "resultado")
@@ -38,4 +38,68 @@ public class SimulationJpa {
 
     @Column(name = "created_at")
     private LocalDateTime createdAt;
+
+    public UUID getId() {
+        return id;
+    }
+
+    public void setId(UUID id) {
+        this.id = id;
+    }
+
+    public UUID getClientId() {
+        return clientId;
+    }
+
+    public void setClientId(UUID clientId) {
+        this.clientId = clientId;
+    }
+
+    public ClientJpa getClient() {
+        return client;
+    }
+
+    public void setClient(ClientJpa client) {
+        this.client = client;
+    }
+
+    public BigDecimal getValorSolicitado() {
+        return valorSolicitado;
+    }
+
+    public void setValorSolicitado(BigDecimal valorSolicitado) {
+        this.valorSolicitado = valorSolicitado;
+    }
+
+    public Integer getPrazoMeses() {
+        return prazoMeses;
+    }
+
+    public void setPrazoMeses(Integer prazoMeses) {
+        this.prazoMeses = prazoMeses;
+    }
+
+    public Integer getScore() {
+        return score;
+    }
+
+    public void setScore(Integer score) {
+        this.score = score;
+    }
+
+    public String getResultado() {
+        return resultado;
+    }
+
+    public void setResultado(String resultado) {
+        this.resultado = resultado;
+    }
+
+    public LocalDateTime getCreatedAt() {
+        return createdAt;
+    }
+
+    public void setCreatedAt(LocalDateTime createdAt) {
+        this.createdAt = createdAt;
+    }
 }
