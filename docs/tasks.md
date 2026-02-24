@@ -8,8 +8,8 @@
 
 ## Fase 2 – Arquitetura
 - [ ✅ ] Definir camadas (Domain, Application, Infrastructure)
-- [ ✅  ] Desenhar modelo de domínio (entidades)
-- [ ] Definir modelo de banco de dados inicial
+- [ ✅ ] Desenhar modelo de domínio (entidades)
+- [ ✅ ] Definir modelo de banco de dados inicial
 
 ## Fase 3 – Implementação Backend
 - [ ✅ ] Configurar build.gradle
