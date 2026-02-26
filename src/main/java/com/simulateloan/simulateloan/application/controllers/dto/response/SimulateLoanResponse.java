@@ -8,6 +8,6 @@ public record SimulateLoanResponse(
         BigDecimal salarioLiquido,
         String faixa,
         BigDecimal limiteTotal,
-        List<PlanoResponse> planos
+        List<PlansResponse> planos
 ) {}
 
