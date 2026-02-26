@@ -1,6 +1,5 @@
 package com.simulateloan.simulateloan;
 
-import com.simulateloan.simulateloan.application.usecases.SimulateLoanUseCase;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
@@ -14,7 +13,7 @@ public class SimulateloanApplication {
         String hello = "Hello World";
         System.out.println(hello);
 
-       new SimulateLoanUseCase().run();
+
 	}
 
 }

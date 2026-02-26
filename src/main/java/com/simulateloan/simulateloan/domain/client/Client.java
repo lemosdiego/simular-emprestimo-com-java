@@ -10,7 +10,7 @@ public class Client {
     private BigDecimal netSalary;
 
 
-    public Client(BigDecimal grossSalary, BigDecimal netSalary) {
+    public Client(String name, BigDecimal grossSalary, BigDecimal netSalary) {
         this.name = name;
         this.grossSalary = grossSalary;
         this.netSalary = netSalary;
